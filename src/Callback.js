@@ -19,12 +19,25 @@ const Callback = ({getColor}) => {
             textAlign: "left",
         }} >
         
-        <img alt="lel" style={{
-            height: "1em",
-        }} src={logo}></img>
-            <input style={{
-                width: "90%",
-            }} type="text" id="input" aria-label="inpur" onChange={handleChange}value={activeColor}/>
+            <img 
+
+                alt="lel" style={{
+                    height: "1em",
+                }} 
+                src={logo}
+            
+            ></img>
+
+                <input className="lala"
+                    style={{
+                        width: "90%",
+                    }} 
+                    type="text" 
+                    id="input" 
+                    aria-label="inpur" 
+                    onChange={handleChange}
+                    value={activeColor}
+                />
         </div>
         
     )
